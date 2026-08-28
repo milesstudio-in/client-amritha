@@ -232,6 +232,17 @@ function Index() {
                 <p className="text-muted-foreground mt-2 text-base sm:text-lg">
                   தஞ்சை மாவட்டம், பந்தநல்லூர்
                 </p>
+
+                <div className="mt-6 rounded-xl bg-white/50 p-4 border border-gold/20 shadow-sm backdrop-blur-sm sm:mr-6">
+                  <p className="text-leaf text-sm font-semibold mb-1">ஆவணி மாதம் 27 ஆம் தேதி</p>
+                  <p className="text-maroon text-[1.35rem] font-bold leading-none sm:text-2xl">
+                    13-09-2026, ஞாயிற்றுக்கிழமை
+                  </p>
+                  <div className="gold-rule mx-auto sm:ml-0 mt-3 h-px w-2/3" />
+                  <p className="text-foreground mt-3 text-sm sm:text-base font-medium">
+                    காலை 10:30 மணி முதல் 11:30 மணி வரை
+                  </p>
+                </div>
               </Reveal>
             </div>
           </div>
@@ -262,35 +273,8 @@ function Index() {
         </section>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-14">
-          {/* விழா விவரங்கள் */}
-          <section id="vivarangal" className="h-full">
-            <Reveal className="h-full">
-              <div className="relative h-full overflow-hidden rounded-[1.75rem] card-ivory p-6 text-center sm:p-10 flex flex-col justify-center">
-                <Corners />
-                <h2 className="text-maroon text-2xl font-semibold sm:text-3xl">
-                  விழா நாள் மற்றும் நேரம்
-                </h2>
-                <Divider className="mt-4" />
-
-                <p className="text-leaf mt-7 text-lg sm:text-xl">ஆவணி மாதம் 27 ஆம் தேதி</p>
-                <p className="text-maroon mt-2 text-[2rem] leading-tight font-bold sm:text-[2.6rem]">
-                  13-09-2026
-                </p>
-                <p className="text-rose-gold mt-1 text-xl sm:text-2xl">ஞாயிற்றுக்கிழமை</p>
-
-                <div className="gold-rule mx-auto mt-7 h-px w-3/4" />
-
-                <p className="text-foreground mt-6 text-xl leading-relaxed font-medium sm:text-2xl">
-                  காலை 10:30 மணி முதல்
-                  <br />
-                  11:30 மணி வரை
-                </p>
-              </div>
-            </Reveal>
-          </section>
-
           {/* மஞ்சள் நீராட்டு விழா */}
-          <section id="vizha" className="h-full">
+          <section id="vizha" className="h-full md:col-span-2">
             <Reveal className="h-full">
               <div className="relative h-full overflow-hidden rounded-[1.75rem] card-ivory p-6 text-center sm:p-10 flex flex-col justify-center">
                 <Corners />

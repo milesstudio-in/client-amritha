@@ -220,17 +220,16 @@ function Index() {
                   மஞ்சள் நீராட்டு விழா
                 </h2>
                 <Divider className="mt-4 sm:justify-start" />
-                <p className="text-muted-foreground mt-5 text-base sm:text-lg">
-                  அன்பு மகள்
-                </p>
-                <p className="text-rose-gold mt-1 text-3xl font-semibold sm:text-[2.4rem]">
-                  செல்வி. S. அம்ரிதா
-                </p>
+
                 <p className="text-leaf mt-3 text-base sm:text-lg">
                   P. சங்கர் – தமிழ்செல்வி அவர்களின் மகள்
                 </p>
                 <p className="text-muted-foreground mt-2 text-base sm:text-lg">
                   தஞ்சை மாவட்டம், பந்தநல்லூர்
+                </p><br></br>
+                <p className="text-rose-gold mt-1 text-3xl font-semibold sm:text-[2.4rem]">
+
+                  செல்வி. ச. அம்ரிதா
                 </p>
 
                 <div className="mt-6 rounded-xl bg-white/50 p-4 border border-gold/20 shadow-sm backdrop-blur-sm sm:mr-6">
@@ -337,7 +336,7 @@ function Index() {
                 <p className="text-foreground/90 mt-4 text-lg leading-loose sm:text-xl">
                   தங்கள் சுற்றம் சூழ வருகை தந்து,
                   <br />
-                  மங்கையை வாழ்த்திச் சிறப்பிக்குமாறு அன்புடன் அழைக்கிறோம்.
+                  விழாவை சிறப்பிக்குமாறு அன்புடன் அழைக்கிறோம்.
                 </p>
                 <Divider className="mt-6" />
                 <p className="text-leaf mt-6 text-base sm:text-lg">அன்புடன் அழைக்கும்</p>

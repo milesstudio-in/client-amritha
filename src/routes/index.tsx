@@ -259,7 +259,7 @@ function Index() {
                 அன்புடையீர் வணக்கம்,
               </p>
               <p className="text-foreground/90 mt-4 text-lg leading-loose sm:text-xl">
-                நிகழும் மங்களகரமான பராபவ ஆண்டு ஆவணி மாதம் 27-ம் தேதி (13-09-2026) ஞாயிற்றுக்கிழமை காலை 10.30 மணிக்கு மேல் 11.30 மணிக்குள் சுபயோக சுபதினத்தில், செல்வி <span className="font-bold text-maroon">அமிர்தாவின்</span> மஞ்சள் நீராட்டு விழா செய்வதாய் பெரியோர்களால் நிச்சயிக்கப்பட்டு, மேற்படி விழா பந்தநல்லூரில் உள்ள எங்கள் இல்லத்தில் நடைபெற இருப்பதால் தாங்கள் தங்கள் சுற்றமும் நட்பும் சூழ வருகைதந்து விழாவைச் சிறப்பிக்க அன்புடன் அழைக்கின்றோம்.
+                நிகழும் மங்களகரமான பராபவ ஆண்டு ஆவணி மாதம் 27-ம் தேதி (13-09-2026) ஞாயிற்றுக்கிழமை காலை 10.30 மணிக்கு மேல் 11.30 மணிக்குள் சுபயோக சுபதினத்தில், செல்வி <span className="font-bold text-maroon">அம்ரிதாவின்</span> மஞ்சள் நீராட்டு விழா செய்வதாய் பெரியோர்களால் நிச்சயிக்கப்பட்டு, மேற்படி விழா பந்தநல்லூரில் உள்ள எங்கள் இல்லத்தில் நடைபெற இருப்பதால் தாங்கள் தங்கள் சுற்றமும் நட்பும் சூழ வருகைதந்து விழாவைச் சிறப்பிக்க அன்புடன் அழைக்கின்றோம்.
               </p>
               <img
                 src={lamp}
@@ -273,31 +273,6 @@ function Index() {
         </section>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-14">
-          {/* மஞ்சள் நீராட்டு விழா */}
-          <section id="vizha" className="h-full md:col-span-2">
-            <Reveal className="h-full">
-              <div className="relative h-full overflow-hidden rounded-[1.75rem] card-ivory p-6 text-center sm:p-10 flex flex-col justify-center">
-                <Corners />
-                <h2 className="text-maroon text-2xl font-semibold sm:text-3xl">
-                  மஞ்சள் நீராட்டு விழா
-                </h2>
-                <Divider className="mt-4" />
-                <img
-                  src={demoDoll}
-                  alt="பாரம்பரிய உடையில் சிறுமி ஓவியம்"
-                  loading="lazy"
-                  className="mx-auto mt-6 w-28 sm:w-36"
-                />
-                <p className="text-foreground/90 mt-6 text-lg leading-loose sm:text-xl">
-                  பந்தநல்லூரில் உள்ள எங்கள் இல்லத்தில், பெரியோர்களின் ஆசியோடு இந்த மங்களகரமான மஞ்சள் நீராட்டு விழா மிகவும் சீரும் சிறப்புமாக நடைபெற உள்ளது.
-                </p>
-                <p className="text-leaf mt-5 text-lg sm:text-xl">
-                  இடம்: தஞ்சை மாவட்டம், பந்தநல்லூர்
-                </p>
-              </div>
-            </Reveal>
-          </section>
-
           {/* இடம் */}
           <section id="idam" className="h-full">
             <Reveal className="h-full">
@@ -353,10 +328,16 @@ function Index() {
                   loading="lazy"
                   className="mx-auto w-full max-w-sm opacity-90"
                 />
+                <img
+                  src={demoDoll}
+                  alt="பாரம்பரிய உடையில் சிறுமி ஓவியம்"
+                  loading="lazy"
+                  className="mx-auto mt-4 w-28 sm:w-36 drop-shadow-md"
+                />
                 <p className="text-foreground/90 mt-4 text-lg leading-loose sm:text-xl">
                   தங்கள் சுற்றம் சூழ வருகை தந்து,
                   <br />
-                  செல்வியை வாழ்த்திச் சிறப்பிக்குமாறு அன்புடன் அழைக்கிறோம்.
+                  மங்கையை வாழ்த்திச் சிறப்பிக்குமாறு அன்புடன் அழைக்கிறோம்.
                 </p>
                 <Divider className="mt-6" />
                 <p className="text-leaf mt-6 text-base sm:text-lg">அன்புடன் அழைக்கும்</p>

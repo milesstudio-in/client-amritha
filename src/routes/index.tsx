@@ -222,14 +222,14 @@ function Index() {
                 <Divider className="mt-4 sm:justify-start" />
 
                 <p className="text-leaf mt-3 text-base sm:text-lg">
-                  P. சங்கர் – தமிழ்செல்வி அவர்களின் மகள்
+                  P. சங்கர் – தமிழ்ச்செல்வி அவர்களின் மகள்
                 </p>
                 <p className="text-muted-foreground mt-2 text-base sm:text-lg">
                   தஞ்சை மாவட்டம், பந்தநல்லூர்
                 </p><br></br>
                 <p className="text-rose-gold mt-1 text-3xl font-semibold sm:text-[2.4rem]">
 
-                  செல்வி. ச. அம்ரிதா
+                  ச. அம்ரிதா - க்கு
                 </p>
 
                 <div className="mt-6 rounded-xl bg-white/50 p-4 border border-gold/20 shadow-sm backdrop-blur-sm sm:mr-6">
@@ -341,7 +341,7 @@ function Index() {
                 <Divider className="mt-6" />
                 <p className="text-leaf mt-6 text-base sm:text-lg">அன்புடன் அழைக்கும்</p>
                 <p className="text-maroon mt-2 text-2xl font-semibold sm:text-3xl">
-                  P. சங்கர் – தமிழ்செல்வி
+                  P. சங்கர் – தமிழ்ச்செல்வி
                 </p>
                 <img
                   src={flowers}
